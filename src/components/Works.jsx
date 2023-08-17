@@ -74,8 +74,9 @@ const Works = () => {
           variants={fadeIn("", "", 0.1, 1)}//No tiene direccion ni tipo pero tiene un diley de 0.1 y uha duracion de 1
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px] ' //leading:  fixed line-height
         >
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque saepe, dolorum neque iusto corporis molestiae. 
-          Alias, totam. Commodi officiis odit iusto illum. Ratione asperiores illo blanditiis ullam excepturi non laudantium.
+          Following projects showcases my skills and experience through
+          examples of my work. Each project is briefly described with
+          links to code repositories
         </motion.p>
       </div>
 

@@ -178,7 +178,7 @@ import {
         },
       ],
       image: portfolio,
-      source_code_link: "https://github.com/PilarLastra/ApiTwitchTraining.git",
+      source_code_link: "https://github.com/PilarLastra/Portfolio.git",
     },
     
   ];
