@@ -21,7 +21,7 @@ const Hero = () => {
             <p className={`${styles.heroSubText} mt-2 text-white-100`}
             //block = se usa para controlar el posicionamiento del texto, pondra el elemento en su propia linea 
             >
-              I'm a junior Frontend  <br className='sm:block hidden'/> web developer
+              I'm a Frontend  <br className='sm:block hidden'/> developer
             </p>
         </div>
       </div>

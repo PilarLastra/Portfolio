@@ -29,6 +29,8 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import twitchAPI from "./twitchAPI.jpg"
 import portfolio from "./portfolio.jpg"
+import weCheck from "./WeCheck.png"
+import weCheckLogo from "./weCheckLogo.png"
 
 export {
   logo,
@@ -59,4 +61,6 @@ export {
   platzi,
   portfolio,
   twitchAPI,
+  weCheck,
+  weCheckLogo
 };

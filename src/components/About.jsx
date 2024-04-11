@@ -56,13 +56,11 @@ const About = () => {
       //fadeIn acepta 4 parametros direccion, tipo, delay, duracion
       className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
     >
-      I consider myself proactive and organizes person, 
-      i like working with teammates and i always seek to 
-      make a creative solution to the problems that come
-      my way. I like new experiences and
-      challenges and i am also motivated to
-      grow professionally and improve my
-      knowledge constantly.
+      I am a software developer specialized in web and mobile development, with significant experience in React and React Native. 
+      I am passionate about innovation and creativity in the technological field. 
+      My collaborative approach drives me to work in teams, where I can contribute fresh ideas and enrich the creative process. 
+      I aspire to continue growing professionally, 
+      expanding my knowledge and skills in an environment that values continuous learning and the exploration of new technologies
       
     </motion.p>
 

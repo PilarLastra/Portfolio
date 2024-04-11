@@ -15,6 +15,8 @@ import {
     platzi,
     twitchAPI,
     portfolio,
+    weCheck,
+    weCheckLogo,
   } from "../assets";
   
   export const navLinks = [
@@ -129,9 +131,19 @@ import {
       title: "Three.js",
       icon: threejs,
       iconBg: "#E6DEDD",
-      date: "July 2023 - Present",
+      date: "July 2023 - September 2023",
       points: [
         "I start lerning new tecnologies like Three.js - React Three Fiber - TailwindCSS and Framer Motion with which I developed this portfolio.",
+       
+      ],
+    },
+    {
+      title: "WeCheck AI",
+      icon: weCheckLogo,
+      iconBg: "#F6f0FF",
+      date: "September 2023 - Present",
+      points: [
+        "As a Frontend Engineer, I am part of the team responsible for the development and maintenance of various applications, including three web platforms and a mobile application. These products are designed to manage users' risk levels through advanced analysis of their social networks, using AI.",
        
       ],
     },
@@ -180,6 +192,28 @@ import {
       image: portfolio,
       source_code_link: "https://github.com/PilarLastra/Portfolio.git",
     },
+    {
+      name: "WeCheck AI",
+      description:
+        "Explore Beyond The Social Surface. Mitigate Risks With Social Media Due Diligence.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "taildwind CSS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Redux",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: weCheck,
+      source_code_link: "https://wecheck.ai/",
+    },
+    
     
   ];
   

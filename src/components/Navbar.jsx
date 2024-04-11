@@ -30,7 +30,7 @@ const Navbar = () => {
           // object-contains = Cambia el tamaño del contenido de un elemento para permanecer contenido dentro de su contenedor
           //sm:block hidden = en dispositivos pequeños el contenido especificado se escondera
           />
-          <p className='text-white text-[14px] font-bold cursor-pointer flex items-center'>Pilar Lastra &nbsp; <span className='sm:block hidden'>| Junior &nbsp; Font-End</span></p> 
+          <p className='text-white text-[14px] font-bold cursor-pointer flex items-center'>Pilar Lastra &nbsp; <span className='sm:block hidden'>| Font-End</span></p> 
           
         </Link>
         <ul className='list-none hidden sm:flex flex-row gap-10'
@@ -44,7 +44,7 @@ const Navbar = () => {
                 ? "text-white"
                 : "text-secondary"
             } hover:text-white text-[18px] font-medium cursor-pointer`} 
-            onClick= {() => setActive(link.title)} //cambia la url enviandote a ese punto de la pagina
+            onClick= {() =>   (link.title)} //cambia la url enviandote a ese punto de la pagina
             >
 
               <a href={ `#${link.id}`}> {link.title} </a>
